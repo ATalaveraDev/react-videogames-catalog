@@ -1,0 +1,33 @@
+.videogameCard {
+    border: 1px solid #CCCCCC;
+    box-shadow: 5px 5px #DDDDDD;
+    width: 400px;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.cardFinishedBorder {
+    border-left: 5px solid #008000;
+}
+
+.cardNotFinishedBorder {
+    border-left: 5px solid #FF0000;
+}
+
+.secondaryInfo {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.platform {
+    color: #CCCCCC;
+    font-size: 14px;
+}
+
+.red {
+    color: #FF0000;
+}
+
+.green {
+    color: #008000;
+}

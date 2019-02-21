@@ -22,7 +22,9 @@ class App extends Component {
   };
 
   render() {
-    const videogames = this.state.videogames.map((videogame) => <Videogame key={videogame.id} />);
+    const videogamesList = this.state.videogames.map((videogame) => {
+      return <Videogame key={videogame.id} data={videogame} />;
+    });
 
     return (
       <div className="App">
@@ -30,7 +32,7 @@ class App extends Component {
           <h1>My Videogames</h1>
         </header>
         <section>
-          {videogames}
+          {videogamesList}
         </section>
       </div>
     );
